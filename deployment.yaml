@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: sample-1
-        image: devopsprosamples/next-sample-2
+        image: devopsprosamples/next-sample-1
         ports:
         - containerPort: 3000
 ---
@@ -39,7 +39,7 @@ metadata:
 
 spec:
   rules:
-  - host: "sample-2.devopspro.in"
+  - host: "sample-1.devopspro.in"
     http:
       paths:
       - pathType: Prefix
